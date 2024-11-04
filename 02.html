@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      .heads {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 16px;
+        background-color: #73aaa5;
+        color: #fff;
+      }
+
+      .heads .head_top {
+        background-color: #73aaa5;
+        padding: 20px 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .heads .head_top h4 {
+        font-size: 40px;
+        color: #fff;
+      }
+
+      .heads .head_top .head_r ul {
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+
+      .heads .head_top .head_r ul li {
+        margin: 0 20px;
+        font-size: 21px;
+      }
+
+      .heads .head_top .head_r ul li a {
+        color: #fff;
+        font-weight: 700;
+      }
+
+      /* 
+            nav
+        */
+
+      .nav {
+        font-size: 25px;
+        font-weight: 700;
+        color: #57807c;
+      }
+
+      .nav h4 {
+        font-size: 45px;
+        line-height: 160px;
+      }
+
+      .nva_main {
+        margin-top: 80px;
+      }
+      .box {
+        margin: 0 30px;
+      }
+      .box ul {
+        margin: 30px auto;
+      }
+
+      .box ul li {
+        display: flex;
+        margin: 45px 0;
+      }
+
+      .box ul li .li1 {
+        flex: 80%;
+      }
+
+      .box ul li .li1 h4 {
+        font-size: 33px;
+      }
+
+      .box ul li .li1 p {
+        font-size: 25px;
+        margin-top: 30px;
+      }
+
+      .box ul li .li2 {
+        /* flex: 20%; */
+        width: 200px;
+        overflow: hidden;
+      }
+
+      .box ul li .li2 img {
+        width: 200px;
+        height: 300px;
+      }
+
+      .img {
+        transform: scalex(1.5);
+      }
+
+      .box ul li:last-child {
+        flex-direction: column;
+      }
+
+      .box ul li .center {
+        width: 600px;
+        height: 300px;
+        margin: 20px auto;
+        background-color: #ccc;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .box ul li .li3 {
+        font-size: 25px;
+      }
+
+      .box ul li .li3 p {
+      }
+
+      /* 底部 */
+
+      .hea {
+        font-size: 16px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+      }
+
+      .foo {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        /* margin-top: 30px; */
+        padding-bottom: 30px;
+      }
+      .heads .head_top .head_r ul li .hover:hover {
+        color: rgb(53, 53, 53);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="heads">
+      <div class="head_top">
+        <div class="head_l">
+          <li><a href="./01.html">  
+          <h4>FEMINIST</h4>
+          <h4>TECHNOLOGY</h4></a>
+        </li>
+        </div>
+        <div class="head_r">
+          <ul>
+            <li><a class="hover" href="./02.html"> HISTORY </a></li>
+            <li><a class="hover" href="./03.html"> EQUALITY </a></li>
+            <li><a class="hover" href="./04.html"> SITUATION </a></li>
+            <li><a class="hover" href="./05.html"> PRODUCES </a></li>
+            <li><a class="hover" href="./06.html"> FUTURE </a></li>
+            <li><a class="hover" href="./07.html"> RESOURCE </a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="box">
+      <div class="nav">
+        <h4>The History of Feminist Technology</h4>
+        <p>
+          These women were pioneers and trailblazers in the field of science and
+          technology, and their accomplishments set an example for subsequent
+          female scientists and engineers, advancing the progress of gender
+          equality.
+        </p>
+      </div>
+
+      <ul>
+        <li>
+          <div class="li1">
+            <h4>Marie Curie (1867-1934)</h4>
+            <p>
+              Madame Curie was a Polish-born French physicist and chemist.
+              Together with her husband Pierre Curie, she discovered the element
+              radium, for which she was awarded the Nobel Prize in Physics in
+              1903. After this, she continued her research on radioactive
+              substances, becoming the first person to win two Nobel Prizes (the
+              second was for her daughter Elisabeth Curie).
+            </p>
+          </div>
+          <div class="li2">
+            <img src="./img/day2-1.png" alt="" />
+          </div>
+        </li>
+        <li>
+          <div class="li1">
+            <h4>Ada Lovelace (1815-1852)</h4>
+            <p>
+              Lady Lovelace was a British mathematician and writer, and is also
+              considered to be the world's first computer programmer. She worked
+              with Charles Babbage, for whom she designed analytical machines
+              and wrote some algorithms, and is considered a pioneer of computer
+              programs.
+            </p>
+          </div>
+          <div class="li2">
+            <img class="img" src="./img/day2-2.png" alt="" />
+          </div>
+        </li>
+        <li>
+          <div class="li1">
+            <h4>Margaret Hamilton (1936-2021)</h4>
+            <p>
+              Ms. Hamilton was an American computer scientist who is regarded as
+              a "pioneer" in the field of software engineering. She designed
+              software to control the flight of spacecraft in the 1960s, an
+              achievement that is considered one of the
+            </p>
+          </div>
+          <div class="li2">
+            <img src="./img/day2-3.png" alt="" />
+          </div>
+        </li>
+
+        <li>
+          <div class="li1">
+            <h4>Mae Jemison(1956-Now)</h4>
+          </div>
+          <div class="center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GwgyEZ5G0wk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="li3">
+            <p>
+              Mae Jemison is an American engineer, physician and former NASA
+              astronaut who became the first black woman to go into space. She
+              was born in Decatur, Alabama, on October 17, 1956, but grew up in
+              Chicago, Illinois.
+            </p>
+            <p>
+              Jamison earned a bachelor's degree in chemical engineering,
+              followed by a doctorate in medicine, and worked in the medical
+              field for several years. The first black female astronaut.
+            </p>
+            <p>
+              Jamison left NASA to pursue a career in medicine, science,
+              engineering and education, and founded a nonprofit organization to
+              encourage and support youth participation in science and
+              technology education. She is a distinguished scientist, educator
+              and social activist dedicated to encouraging more people to pursue
+              careers in STEM fields.
+            </p>
+          </div>
+          <div class="li1">
+            <h4>Mar Hicks</h4>
+          </div>
+          <div class="center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4vCDHJ4-D80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="li3">
+            <p>
+              Mar Hicks is a historian of technology, gender and modern Europe, 
+              notable for their work on the history of women in computing. 
+              Hicks is a professor at the Illinois Institute of Technology. 
+              In her book "Programmed Inequality", she focuses on the role of women in computing, 
+              particularly their contributions to the development of early computer systems 
+              and their subsequent exclusion from the field. The book also sheds light on 
+              the experiences of women who worked in the field, including their struggles for recognition 
+              and equal treatment, and the ways in which they navigated discriminatory practices and attitudes. 
+              Ultimately, "Programmed Inequality" offers a critical examination of the social 
+              and historical contexts of computing and the role of gender in shaping its development.
+             </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <footer>
+      <div style="height: 80px"></div>
+      <div class="hea">
+        HOME | HISTORY | EQUALITY | SITUALON | PRODUCES | FUTURE | RESOURCE
+      </div>
+      <div style="height: 15px"></div>
+      <p class="foo">2023 Feminist Technology All rights reserved.</p>
+    </footer>
+  </body>
+</html>
